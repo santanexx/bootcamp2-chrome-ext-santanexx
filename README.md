@@ -10,7 +10,7 @@ Esta é uma extensão simples para Google Chrome (Manifest V3) criada como parte
 * **Resetar Total**: Zera todo o tempo acumulado.
 O tempo total fica salvo mesmo que você feche o navegador.
 
-## 🚀 Instalação (Modo Desenvolvedor)
+##  Instalação (Modo Desenvolvedor)
 
 ela precisa ser instalada manualmente.
 
@@ -22,7 +22,7 @@ ela precisa ser instalada manualmente.
 
 Pronto! A extensão aparecerá na sua lista e estará pronta para uso.
 
-## 👨‍💻 Como Usar
+##  Como Usar
 
 Clique no ícone da extensão para abrir o popup.
     * Clique em **Start** para iniciar a contagem.
