@@ -1,0 +1,17 @@
+:root{font-family:Inter, system-ui, Arial, sans-serif}
+
+body{margin:0;padding:12px;width:280px}
+
+.container{text-align:center}
+
+.logo{width:48px;height:48px}
+
+h1{font-size:16px;margin:8px 0}
+
+.small{font-size:12px;color:#666}
+
+button{padding:8px 12px;border-radius:8px;border:1px solid #ccc;cursor:pointer}
+
+.status{font-size:12px;margin-top:8px}
+
+.footer{font-size:11px;color:#888;margin-top:10px}
