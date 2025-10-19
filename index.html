@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Buscar cotas IBOV</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    header { display:flex; align-items:center; gap:12px; }
+    h1 { margin: 0; }
+    pre { background:#f4f4f4; padding:10px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="width:64px;height:64px;background:#0a66c2;border-radius:12px;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold">IB</div>
+    <div>
+      <h1>Buscar cotas IBOV </h1>
+      <p>Extensão Chrome (Manifest V3) — busca nome, logo e preço atual de uma cota (BRAPI)</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Instalação manual</h2>
+    <ol>
+      <li>Clone ou baixe o repositório.</li>
+      <li>Acesse <strong>chrome://extensions</strong> no Chrome e ative Developer Mode.</li>
+      <li>Clique em <strong>Load unpacked</strong> e selecione a pasta do projeto (a raiz onde está manifest.json).</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Uso</h2>
+    <p>Abra o popup da extensão e digite a sigla (ex: <code>PETR4</code>) e clique em Buscar. A extensão exibirá o nome, logo e preço atual.</p>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Ao executar a pipeline (GitHub Actions) será gerado <code>dist/extension.zip</code> como artefato / Release.</p>
+  </section>
+
+  <footer style="margin-top:24px;color:#666">
+    <p>Repositório: <a href="https://github.com/santanexx/bootcamp2-chrome-ext-santanexx" target="_blank">santanexx/bootcamp2-chrome-ext-santanexx</a></p>
+  </footer>
+</body>
+</html>
