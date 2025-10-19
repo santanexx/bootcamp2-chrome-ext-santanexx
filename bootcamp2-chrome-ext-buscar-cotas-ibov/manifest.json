@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Buscar cotas IBOV",
+  "version": "1.0.0",
+  "description": "Extensão que busca nome, logo e preço atual de uma cota da B3 via Brapi API.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Buscar cotas IBOV",
+    "default_popup": "src/popup/popup.html"
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://brapi.dev/*"
+  ]
+}

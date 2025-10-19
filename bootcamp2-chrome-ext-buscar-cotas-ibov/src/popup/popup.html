@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://brapi.dev; img-src 'self' data: https://brapi.dev https:; style-src 'self' 'unsafe-inline'">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Buscar cotas IBOV</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Buscar cotas IBOV</h1>
+    <label for="ticker">Sigla (ex: PETR4)</label>
+    <input id="ticker" type="text" placeholder="Digite a cota (ex: PETR4)" autofocus />
+    <button id="buscar">Buscar</button>
+
+    <div id="resultado" class="hidden" aria-live="polite">
+      <img id="logo" alt="Logo da empresa" />
+      <h2 id="nome"></h2>
+      <p><strong>Preço atual:</strong> <span id="preco"></span></p>
+      <p><strong>Variação 52s:</strong> <span id="faixa"></span></p>
+    </div>
+
+    <p id="mensagem" class="mensagem"></p>
+    <footer>
+      <small>Stateless — busca via BRAPI</small>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
